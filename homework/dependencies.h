@@ -5,5 +5,10 @@ struct dog
 {
 	int age;
 	char* name;
+<<<<<<< HEAD
 }
+=======
+};
+
+>>>>>>> b3dd21e00b2f59d87bbc24987f38c44042a8da2f
 

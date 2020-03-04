@@ -5,7 +5,10 @@
 #include<stdio.h>
 #include <dependencies.h>
 int globalInt = 37;
+<<<<<<< HEAD
 
+=======
+>>>>>>> b3dd21e00b2f59d87bbc24987f38c44042a8da2f
 int charToInt(char input){
 	int output = intToChar(input);
 	return output-5;
