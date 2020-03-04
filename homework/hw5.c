@@ -2,7 +2,9 @@
 
 //Question 3 part 2. 
 //Set 'globalInt' to be equal to 37
-
+#include<stdio.h>
+#include <dependencies.h>
+int globalInt = 37;
 int charToInt(char input){
 	int output = intToChar(input);
 	return output-5;
@@ -10,7 +12,11 @@ int charToInt(char input){
 
 //Question 4
 //define the 'intToChar' function. This function should add 5 to the int given, cast it to a char, and then return this char.
-
+char intToChar(int number) {
+	number = number + 5;
+	char resultChar = number;
+	return resultChar;
+}
 //Question 5 is not in this file. See readme.txt
 
 //DO NOT ALTER, THIS IS FOR THE AUTOGRADER
