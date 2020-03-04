@@ -1,3 +1,4 @@
+
 //Questions 1-3 are not in this file. See readme.txt
 
 //Question 3 part 2. 
@@ -5,10 +6,6 @@
 #include<stdio.h>
 #include <dependencies.h>
 int globalInt = 37;
-<<<<<<< HEAD
-
-=======
->>>>>>> b3dd21e00b2f59d87bbc24987f38c44042a8da2f
 int charToInt(char input){
 	int output = intToChar(input);
 	return output-5;
